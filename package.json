@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-ejs",
+  "version": "1.0.0",
+  "description": "- Affichage d'une liste de competences avec EJS - La liste sera stocker dans un JSON - Techno utilisées : NodeJs, EJS, JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexreu/NodeJs---EJS-templating.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexreu/NodeJs---EJS-templating/issues"
+  },
+  "homepage": "https://github.com/alexreu/NodeJs---EJS-templating#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
