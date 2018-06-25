@@ -23,7 +23,15 @@
                     <img class="card-img-top" src="<%= competences.logo %>" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title text-uppercase"><%= competences.Competence %></h5>
-                        <p class="card-text stars stars-color" data-niveau="<%= competences.niveau %>"> Niveau : </p>
+                        <p class="card-text stars stars-color" data-niveau="<%= competences.niveau %>">
+                            Niveau :
+                            <% for (var i =0; i<competences.niveau; i++){ %>
+                                <span><i class="fas fa-star"></i></span>
+                            <% }; %>
+                            <% for (var i =0; i<6-competences.niveau; i++){ %>
+                                <span><i class="far fa-star"></i></span>
+                            <% }; %>
+                        </p>
                         <!--<a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                 </div>
